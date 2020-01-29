@@ -23,6 +23,6 @@ git add -A
 git commit -m 'deploy'
 
 # deploy
-git push -f git@github.com:cksachdev/bootstrap-vue-scoped-scss-issue.git gh-pages
+git push -f https://github.com/cksachdev/bootstrap-vue-scoped-scss-issue.git master:gh-pages
 
 cd -
