@@ -8,10 +8,10 @@ module.exports = {
     '@vue/standard'
   ],
   rules: {
-    "strict": "off",
-    "no-console": "off",
-    "no-inline-comments": "off",
-    "no-undef": "off"
+    'strict': 'off',
+    'no-console': 'off',
+    'no-inline-comments': 'off',
+    'no-undef': 'off'
   },
   parserOptions: {
     parser: 'babel-eslint'
