@@ -44,6 +44,9 @@
 
 export default {
   name: 'HelloWorld',
+  mounted () {
+    this.showModal()
+  },
   methods: {
     showModal () {
       this.$refs['my-modal'].show()
